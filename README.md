@@ -1,6 +1,6 @@
 **BASE Miner Instructions**
 
-1)      Download the miner from: https://github.com/lbunproject/base\_miner
+1)      Download the miner from: https://github.com/lbunproject/base_miner
 
 -   For Linux: base\_miner\_v01
 
