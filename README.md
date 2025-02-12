@@ -35,8 +35,18 @@ https://base-mining-leaderboard.streamlit.app
 ![](/images/threads.jpg)
 
 ---
+---
 
-**Command line options:** 
+**Warning:** <font color="red">**DO NOT**</font> use the same wallet address for multiple miners. Doing so may activate the anti-cheat system (due to exceeding the rate limit) and you will  <font color="red">**NOT**</font> earn rewards!
+
+![](/images/exceeded.jpg)
+
+---
+---
+
+**Command line options:**
+
+<font color="red">**Not all CPUs support all options**</font>
 
 AES hashing
 
@@ -61,5 +71,3 @@ Memory Size
 -   \- mem\_size full (default)
 
 - \- mem\_size lite (slower)
-
-**\*\*\* Not all CPUs support all options**
