@@ -8,19 +8,26 @@ https://base-mining-leaderboard.streamlit.app
 
 1)      Download the miner from: https://github.com/lbunproject/base_miner
 
--   For Linux: base\_miner\_v01
+-   For Linux: base_miner_v01
 
--   For Windows: base\_miner\_v01.exe
+-   For Windows: base_miner_v01.exe
 
-2)      For Linux, change permissions to executable:
+-   For MacOS: base_miner_mac_arm64_v01 
+     - (Must place in a folder called BASE_MINER)
 
--   chmod 755 ./base\_miner\_v01
+2)       Change permissions to executable via commandline:
 
-3)      Start miner from the commandline:
+-   For Linux, chmod +x ./base_miner_v01
+-   For Windows, N/A
+-   For MacOS, chmod +x /path_to_folder/BASE_MINER/base_miner_mac_arm64_v01
 
--   For Linux: ./base\_miner\_v01
+3)      Start miner from the commandline (in same directory as file):
 
--   For windows: base\_miner\_v01.exe
+-   For Linux: ./base_miner_v01
+
+-   For Windows: base_miner_v01.exe
+
+-   For MacOS: ./base_miner_mac_arm64_v01
 
 4)      Add wallet address with option 2
 
@@ -71,3 +78,8 @@ Memory Size
 -   \- mem\_size full (default)
 
 - \- mem\_size lite (slower)
+
+---
+---
+
+Credit goes to Bill for providing the instructions on the MacOS version
